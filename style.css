@@ -113,11 +113,11 @@ header ,img {
     
 }
 
-header::before {
+.fundo-header {
     content: "";
     width: 100vw;
     height: 108rem;
-    background-color: black;
+    background-color: var(--brand-light);
     display: block;
 
     position: absolute;
@@ -126,5 +126,5 @@ header::before {
     z-index: -1;
 
 }
-    
+
    
